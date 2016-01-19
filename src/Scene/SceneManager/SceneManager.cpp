@@ -2,9 +2,9 @@
 
 SceneManager::SceneManager()
 {
-	title = std::shared_ptr<Title>(new Title);
-	gamemain = std::shared_ptr<GameMain>(new GameMain);
-	result = std::shared_ptr<Result>(new Result);
+	title = std::make_shared<Title>();
+	gamemain = std::make_shared<GameMain>();
+	result = std::make_shared<Result>();
 	scene = SceneName::TITLE;
 }
 

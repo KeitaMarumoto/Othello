@@ -12,7 +12,7 @@ GuiOut::~GuiOut()
 
 void GuiOut::Update()
 {
-
+	
 }
 
 void GuiOut::Draw()

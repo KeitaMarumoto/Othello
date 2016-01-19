@@ -2,7 +2,8 @@
 
 GameMain::GameMain()
 {
-	board=std::shared_ptr<Board>(new Board);
+	board = std::make_shared<Board>();
+	guiout = std::make_shared<GuiOut>();
 }
 
 GameMain::~GameMain() 

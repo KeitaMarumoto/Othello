@@ -1,7 +1,7 @@
 #pragma once
 #include "../../lib/framework.hpp"
 #include "../../Singleton.h"
-#include "../../Board/Board.h"
+#include "../../Scene/GameMain/GameMain.h"
 
 class GuiOut {
 private:

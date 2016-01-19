@@ -2,7 +2,7 @@
 #include "Singleton.h"
 #include "Scene/SceneManager/SceneManager.h"
 
-std::shared_ptr<SceneManager>scene_manager(new SceneManager);
+std::shared_ptr<SceneManager>scene_manager = std::make_shared<SceneManager>();
 
 int main() {
 	App::get();

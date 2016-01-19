@@ -15,6 +15,11 @@ Board::Board()
 					   outer_size.y() - static_cast<float>(BoardSize::SUB_IN_OUT));
 }
 
+Board::~Board()
+{
+	// No nothing
+}
+
 
 void Board::Draw()
 {
