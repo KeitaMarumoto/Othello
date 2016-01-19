@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include "../lib/framework.hpp"
 #include "../Singleton.h"
 

@@ -41,17 +41,17 @@ void SceneManager::Draw()
 	{
 	case SceneName::TITLE:
 		title->Draw();
-		cout << "TITLE";
+		//cout << "TITLE"<<endl;
 		break;
 
 	case SceneName::GAMEMAIN:
 		gamemain->Draw();
-		cout << "GAMEMAIN";
+		//cout << "GAMEMAIN"<<endl;
 		break;
 
 	case SceneName::RESULT:
 		result->Draw();
-		cout << "RESULT";
+		//cout << "RESULT"<<endl;
 		break;
 	}
 }

@@ -3,12 +3,13 @@
 GameMain::GameMain()
 {
 	board = std::make_shared<Board>();
-	guiout = std::make_shared<GuiOut>();
+	guiout = std::make_shared<GuiOut>(board->getOuterPos(), 
+									  board->getOuterSize());
 }
 
 GameMain::~GameMain() 
 {
-
+	// No nothing
 }
 
 void GameMain::Update()

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../lib/framework.hpp"
 #include "../../Singleton.h"
-#include "../../Scene/GameMain/GameMain.h"
 
 class GuiOut {
 private:
@@ -9,7 +8,7 @@ private:
 	Vec2f size;
 
 public:
-	GuiOut();
+	GuiOut(Vec2f, Vec2f);
 	~GuiOut();
 	void Update();
 	void Draw();
