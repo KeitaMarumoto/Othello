@@ -2,7 +2,12 @@
 
 Title::Title()
 {
+	
+}
 
+Title::~Title()
+{
+	//No nothing
 }
 
 void Title::Update()

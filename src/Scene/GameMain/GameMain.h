@@ -11,6 +11,7 @@ class GameMain{
 private:
 	std::shared_ptr<Board>board;
 	std::shared_ptr<GuiOut>guiout;
+	Vec2f scale = Vec2f(1.0f, 1.0f);
 
 public:
 	GameMain();

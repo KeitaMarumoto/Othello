@@ -14,7 +14,7 @@ GameMain::~GameMain()
 
 void GameMain::Update()
 {
-
+	
 }
 
 void GameMain::Draw()
