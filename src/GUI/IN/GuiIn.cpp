@@ -1,21 +1,65 @@
 #include "GuiIn.h"
 
-GuiIn::GuiIn()
+//**************CircleGuiInクラス*************************************************
+
+CircleGuiIn::CircleGuiIn(Vec2f p, Vec2f r)
+{
+	pos = p;
+	radius = r;
+	is_active = true;
+}
+
+void CircleGuiIn::Update()
 {
 
 }
 
-GuiIn::~GuiIn()
+void CircleGuiIn::Draw()
+{
+	//drawFillCircle()
+}
+
+void CircleGuiIn::Collision()
 {
 
 }
 
-void GuiIn::Update()
+void CircleGuiIn::Active(bool active = true)
+{
+	is_active = active;
+}
+
+//*******************************************************************************
+
+
+
+//****************BoxGuiInクラス**************************************************
+
+BoxGuiIn::BoxGuiIn(Vec2f p, Vec2f s)
+{
+	pos = p;
+	size = s;
+	is_active = true;
+}
+
+void BoxGuiIn::Update()
 {
 
 }
 
-void GuiIn::Draw()
+void BoxGuiIn::Draw()
+{
+	//drawFillBox()
+}
+
+void BoxGuiIn::Collision()
 {
 
 }
+
+void BoxGuiIn::Active(bool active = true)
+{
+	is_active = active;
+}
+
+//*******************************************************************************

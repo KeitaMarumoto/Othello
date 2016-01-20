@@ -20,6 +20,11 @@ Board::~Board()
 	// No nothing
 }
 
+void Board::Update() 
+{
+	
+}
+
 
 void Board::Draw()
 {

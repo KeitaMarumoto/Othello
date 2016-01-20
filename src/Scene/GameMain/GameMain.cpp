@@ -20,6 +20,7 @@ void GameMain::Update()
 void GameMain::Draw()
 {
 	board->Draw();
+	guiout->Draw();
 }
 
 SceneName GameMain::Shift()

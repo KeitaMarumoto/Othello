@@ -13,6 +13,7 @@ private:
 public:
 	Board();
 	~Board();
+	void Update();
 	void Draw();
 	Vec2f getOuterPos() { return outer_pos; }
 	Vec2f getInnerPos() { return inner_pos; }
