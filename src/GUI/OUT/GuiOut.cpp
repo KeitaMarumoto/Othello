@@ -5,8 +5,9 @@ GuiOut::GuiOut(Vec2f outer_pos,Vec2f outer_size)
 	pos = Vec2f(outer_pos.x() + outer_size.x(), 
 				outer_pos.y());
 
-	size = Vec2f(Window::WIDTH-outer_size.y(),
+	size = Vec2f(Window::WIDTH - outer_size.y(),
 				 outer_size.y());
+
 	prev_pos = outer_pos;
 	prev_size = outer_size;
 }
