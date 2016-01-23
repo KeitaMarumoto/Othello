@@ -1,6 +1,6 @@
 #include "GuiIn.h"
 
-//**************CircleGuiInクラス*************************************************
+//**************CircleGuiInクラス********************************************
 
 CircleGuiIn::CircleGuiIn(const Vec2f p, const Vec2f r)
 {
