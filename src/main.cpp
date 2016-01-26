@@ -6,7 +6,6 @@ std::shared_ptr<SceneManager>scene_manager = std::make_shared<SceneManager>();
 
 int main() {
 	App::get();
-
 	while (env.isOpen()) {
 		scene_manager->Update();
 
